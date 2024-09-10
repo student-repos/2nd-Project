@@ -1,17 +1,17 @@
 import "./App.css";
-import "./user/Playlist.css";
-import "./comp/Home.css";
-import "./user/Register.css";
-import Home from "./comp/Home";
+import "./pages/Playlist.css";
+import "./pages/Home.css";
+import "./pages/Register.css";
+import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
-import Playlist from "./user/Playlist";
-import Register from "./user/Register";
-import Login from "./user/Login";
-import CartItems from "./user/CartItems";
+import Playlist from "./pages/Playlist";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import CartItems from "./pages/CartItems";
 // import NavBar from "./comp/NavBar";
 // import Footer from "./comp/Footer";
-import { CartProvider } from "./user/CartContext";
-import { Container } from "./comp/Container";
+import { CartProvider } from "./controllers/CartContext";
+import { Container } from "./components/Container";
 
 function App() {
   return (

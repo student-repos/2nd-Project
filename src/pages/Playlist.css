@@ -3,4 +3,14 @@
   background-size: cover;
   width: 100vw;
   height: 100vh;
+
+  ul {
+    display: block;
+    margin: 10vh 0;
+
+    li {
+      display: list-item;
+      font-size: 5vmin;
+    }
+  }
 }
