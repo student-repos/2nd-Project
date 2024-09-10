@@ -1,0 +1,9 @@
+.back7 {
+  background-image: url("../assets/05.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin-left: -10px;
+}

@@ -1,0 +1,94 @@
+.back3 {
+  background-image: url("../assets/04.jpg");
+
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.head6 {
+  margin-top: 400px;
+  color: white;
+  font-size: 50px;
+}
+.cards {
+  margin-top: 400px;
+  height: 300px;
+  background: none;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 2%;
+
+    -webkit-animation-timing-function: linear;
+  }
+
+  to {
+    margin-left: -57%;
+
+    -webkit-animation-timing-function: linear;
+  }
+}
+.cards:hover {
+  animation-play-state: paused;
+}
+.btn-cards {
+  margin-top: 170px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 20px;
+  margin-left: 14px;
+}
+.buy {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 20px;
+  border: none;
+  font-weight: 500;
+  background-color: rgba(27, 16, 16, 0.705);
+  color: rgb(193, 223, 26);
+
+  cursor: pointer;
+  font-weight: 800;
+}
+.play {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(27, 16, 16, 0.705);
+  color: rgb(193, 223, 26);
+
+  cursor: pointer;
+  font-weight: 800;
+}
+.items {
+  border: 1px solid rgb(10, 9, 9);
+  border-radius: 20px;
+  margin-left: 10px;
+  background-color: rgb(46, 28, 28);
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/05.jpg");
+  background-size: cover;
+  background-position: center;
+  font-style: italic;
+}
+.items:hover {
+  transform: scaleY(1.1);
+}
+
+.text {
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 400;
+
+  color: white;
+}

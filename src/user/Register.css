@@ -1,0 +1,21 @@
+.back-2 {
+  background-image: url("../assets/02.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-4 {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100px;
+  font-weight: 700;
+  color: rgb(219, 211, 196);
+  background-color: rgba(0, 0, 0, 0.534);
+  border-radius: 30px;
+  border: none;
+  font-size: medium;
+  cursor: pointer;
+}

@@ -1,0 +1,157 @@
+ul {
+  list-style: none;
+  display: flex;
+  /*   justify-content: space-between; */
+  background: rgba(0, 0, 0, 0.315);
+  position: fixed;
+  margin-top: 0px;
+  margin-left: -10px;
+  top: 0;
+  width: 100vw;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
+.house {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.hphones {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.music {
+  font-size: 35px;
+  font-weight: 500;
+  color: red;
+  font-style: italic;
+}
+.logo {
+  color: white;
+  font-weight: 500;
+  font-size: 35px;
+  font-style: italic;
+  margin: 5px 0 5px 0px;
+}
+.searchbar {
+  display: flex;
+  margin-left: 400px;
+  margin-top: 20px;
+  padding-left: 20px;
+  width: 350px;
+  height: 25px;
+  background-image: url("../../src/assets/search.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: right;
+  border-radius: 20px;
+  background-position-x: 97%;
+  border: none;
+  outline: none;
+}
+::placeholder {
+  font-style: italic;
+  padding-left: 10px;
+  outline: none;
+  list-style: none;
+}
+
+::placeholder li {
+  text-decoration: none;
+}
+
+.shopCart {
+  color: white;
+  font-size: 35px;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+.menu {
+  margin-left: 20px;
+  margin-top: 14px;
+  color: rgb(152, 190, 14);
+  font-size: 35px;
+}
+.btn-2 {
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 12px;
+  border-radius: 15px;
+  font-weight: 800;
+  background-color: cyan;
+  border: none;
+  cursor: pointer;
+}
+.btn-1 {
+  padding: 10px;
+  margin-left: 500px;
+  margin-top: 12px;
+  border-radius: 15px;
+  font-weight: 800;
+  background-color: cyan;
+  border: none;
+  cursor: pointer;
+}
+.sp-1 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(137, 199, 39);
+  margin-left: 20px;
+  margin-top: 17px;
+  border-radius: 3px;
+}
+.sp-2 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(137, 199, 39);
+  margin-left: 20px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+.sp-3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(137, 199, 39);
+  margin-left: 20px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+.links-container {
+  width: 15%;
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.521);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 62px;
+  right: -10px;
+  visibility: hidden;
+}
+.links-container a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.links-container a:hover {
+  text-decoration: underline rgb(124, 184, 12);
+  transform: scaleX(1.1);
+}
+.contact {
+  margin-top: 10px;
+}
+.service {
+  margin-top: 10px;
+}
+.ham-menu:hover > .links-container {
+  visibility: visible;
+}

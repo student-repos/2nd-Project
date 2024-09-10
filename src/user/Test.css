@@ -1,0 +1,66 @@
+.head {
+  margin-top: 100px;
+  margin-left: 0;
+  background: none;
+  font-size: 40px;
+}
+.subtotal {
+  margin-top: 320px;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  gap: 30px;
+}
+.clear {
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.rest {
+  position: absolute;
+  z-index: 100;
+  margin-left: 30px;
+  margin-top: 100px;
+  background: none;
+}
+.tprice {
+  margin-left: 20px;
+}
+h4 {
+  font-size: 25px;
+  margin-top: 190px;
+}
+.track-title {
+  margin-left: 10px;
+}
+
+.track-price {
+  margin-left: 20px;
+}
+.minus {
+  margin-left: 10px;
+}
+
+.quant {
+  margin-left: 40px;
+}
+.select {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.rem {
+  margin-left: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
