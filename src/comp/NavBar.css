@@ -8,6 +8,10 @@ ul {
   margin-left: -10px;
   top: 0;
   width: 100vw;
+
+  * {
+    flex: 1;
+  }
 }
 
 li {

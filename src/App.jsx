@@ -8,22 +8,22 @@ import Playlist from "./user/Playlist";
 import Register from "./user/Register";
 import Login from "./user/Login";
 import CartItems from "./user/CartItems";
-import NavBar from "./comp/NavBar";
-import Footer from "./comp/Footer";
+// import NavBar from "./comp/NavBar";
+// import Footer from "./comp/Footer";
 import { CartProvider } from "./user/CartContext";
+import { Container } from "./comp/Container";
 
 function App() {
   return (
     <CartProvider>
-      <NavBar />
-      <Footer />
-
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/playlist" element={<Playlist />}></Route>
-        <Route path="/register" element={<Register />}></Route>
-        <Route path="/login" element={<Login />}></Route>
-        <Route path="/cartitems" element={<CartItems />}></Route>
+        <Route path="/" element={<Container />}>
+          <Route index element={<Home />} />
+          <Route path="playlist" element={<Playlist />} />
+          <Route path="register" element={<Register />} />
+          <Route path="login" element={<Login />} />
+          <Route path="cartitems" element={<CartItems />}/>
+        </Route>
       </Routes>
     </CartProvider>
   );
